@@ -29,7 +29,7 @@ namespace Prime.UnitTests.Services
         {
             var result = _primeService.IsPrime(value);
 
-            Assert.IsFalse(result, $"{value} should not be prime");
+            Assert.IsFalse(result, $"{value} should not be primo");
         }
     }
 }
